@@ -17,6 +17,7 @@ import {
 	SiUnity,
 	SiReact,
 	SiNodeDotJs,
+	SiMicrosoft,
 } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 import SkillBadge from "./SkillBadge";
@@ -28,7 +29,7 @@ export function Skills() {
 	return (
 		<Paper className={classes.container}>
 			<Typography className={classes.title} variant="h5">
-				{t("Skills")}
+				{t("skills")}
 			</Typography>
 			<Box className={classes.skills}>
 				<SkillBadge
@@ -81,6 +82,11 @@ export function Skills() {
 					skillName={"Unity"}
 					url="https://unity.com"
 				/>
+				<SkillBadge
+					Icon={SiMicrosoft}
+					skillName={"HLSL"}
+					url="https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-pguide"
+				/>
 			</Box>
 		</Paper>
 	);
@@ -90,14 +96,16 @@ const useStyles = makeStyles((theme: Theme) =>
 	createStyles({
 		container: {
 			margin: 5,
+			padding: 5,
 		},
 		title: {
-			paddingTop: 5,
 			marginLeft: theme.spacing(2),
 		},
 		skills: {
 			display: "flex",
 			flexDirection: "row",
+			flexGrow: "unset",
+			flexWrap: "wrap",
 			marginTop: 5,
 			marginBottom: 5,
 		},

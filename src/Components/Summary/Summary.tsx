@@ -6,7 +6,6 @@ import {
 	CardContent,
 	Typography,
 	Avatar,
-	Box,
 } from "@material-ui/core";
 import leandro from "../../Assets/Images/9620660.jpg";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";

@@ -1,5 +1,11 @@
 {
 	"birthday": "27 de Junio de 1988. Buenos Aires, Argentina.",
 	"summary": "Soy un programador apasionado en lo relacionado a gráficos, diseño y desarrollo de video juegos, esto es a lo que me gustaría dedicarme. Me encuentro en las últimas etapas de la carrera de Ingeniería en Sistemas de Información en la UTN.",
-	"youCanFindMe": "Puedes encontrarme en ... "
+	"youCanFindMe": "Puedes encontrarme en ... ",
+	"tgcProject": "Proyecto universitario realizado para la asignatura TCG (Técnicas de Gráficos por Computadora) de la UTN (Universidad Tecnológica Nacional) realizado en C# utilizando un framework academico, la API de DirectX 9 y shaders escritos en HLSL (Shader Model 3.0). El proyecto fue realizar un video juego del tipo Survival Horror aplciando diferentes tecnicas graficas como iluminación, sombreado y optimización.",
+	"skills": "Tecnologias",
+	"tgcProjectTemplate": "Prueba de concepto para la asignatura TCG (Técnicas de Gráficos por Computadora) de la UTN (Universidad Tecnológica Nacional) realizado en C# utilizando un framework academico, la API de DirectX 9 y shaders escritos en HLSL (Shader Model 3.0). El proyecto fue realizar una plantilla de un video juego del estilo de Plataformas 3D para futuros alumnos que cursen TGC.",
+	"tgcProjectMigratesToUnity": "La idea fue tomar el proyecto original de TGC migrarlo a Unity solo por diversión.",
+	"tgcProjectMigratesToMonoGame": "La idea es tomar el proyecto original de TGC migrarlo a MonoGame (Motor Gráfico) con Bepu Engine (Motor de Físicas), para detectar desde TGC (Técnicas de Gráficos por Computadora) lo que los alumnos necesitan para realizar un proyecto de mejor manera.",
+	"portfolio": "Es este proyecto el mismo fue realziado en ReactJS con la ayuda de Typescript y utilizando diferentes librerias como Material UI para administrar como se ve la página y Formik para manejar el formulario de contacto."
 }

@@ -11,5 +11,5 @@ const useStyles = makeStyles((theme: Theme) =>
 		container: {
 			margin: 5,
 		},
-	})
-);
+	});
+

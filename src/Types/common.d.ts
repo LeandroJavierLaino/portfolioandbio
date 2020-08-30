@@ -1,6 +1,6 @@
-type BasicRenderType ={
-    children:React.ReactElement;
-    window?:() => Window;
-}
+type BasicRenderType = {
+	children: React.ReactElement;
+	window?: () => Window;
+};
 
-export {BasicRenderType}
+export { BasicRenderType };

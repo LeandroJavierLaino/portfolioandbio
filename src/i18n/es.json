@@ -8,5 +8,13 @@
 	"tgcProjectMigratesToUnity": "La idea fue tomar el proyecto original de TGC migrarlo a Unity solo por diversión.",
 	"tgcProjectMigratesToMonoGame": "La idea es tomar el proyecto original de TGC migrarlo a MonoGame (Motor Gráfico) con Bepu Engine (Motor de Físicas), para detectar desde TGC (Técnicas de Gráficos por Computadora) lo que los alumnos necesitan para realizar un proyecto de mejor manera.",
 	"portfolio": "Es este proyecto el mismo fue realziado en ReactJS con la ayuda de Typescript y utilizando diferentes librerias como Material UI para administrar como se ve la página y Formik para manejar el formulario de contacto.",
-	"Projects": "Proyectos"
+	"Projects": "Proyectos",
+	"Contact": "Contacto",
+	"firstName": "Nombre",
+	"lastName": "Apellido",
+	"email": "e-Mail",
+	"subject": "Asunto",
+	"message": "Mensaje",
+	"serverMailUnderConstructionTitle": "Envio de mail en construcción",
+	"serverMailUnderConstructionContent": "Momentaneamente el servicio de envio de mail esta en construcción. Si desea ponerse en contacto por favor envie un correo a leanlaino@gmail.com"
 }

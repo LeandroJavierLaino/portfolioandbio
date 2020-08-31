@@ -10,7 +10,7 @@ import {
 	Box,
 } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 export function Contact() {

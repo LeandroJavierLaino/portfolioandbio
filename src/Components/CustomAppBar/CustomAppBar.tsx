@@ -5,7 +5,6 @@ import {
 	Toolbar,
 	Typography,
 	Avatar,
-	Button,
 	createStyles,
 	makeStyles,
 	Theme,
@@ -31,20 +30,20 @@ const CustomAppBar = () => {
 					<Typography variant="h6">Leandro Javier Laiño</Typography>
 
 					<div className={classes.rightToolbar}>
-						<Button
+						<IconButton
 							onClick={() => {
 								changeLanguage("es");
 							}}
 						>
 							<Avatar src={flagEsp}></Avatar>
-						</Button>
-						<Button
+						</IconButton>
+						<IconButton
 							onClick={() => {
 								changeLanguage("en");
 							}}
 						>
 							<Avatar src={flagIngl}></Avatar>
-						</Button>
+						</IconButton>
 						<IconButton
 							aria-controls="menu-appbar"
 							onClick={() => {

@@ -7,5 +7,6 @@
 	"tgcProjectTemplate": "Proof of conceptfor subject TCG (Técnicas de Gráficos por Computadora - Computer Graphics Techniques) from UTN (Universidad Tecnológica Nacional) made in C# using an academic framework, DirectX 9 API and shaders written in HLSL (Shader Model 3.0). The project was to do a 3D Platform videogame to apply as template of future students proyects take the course in TGC.",
 	"tgcProjectMigratesToUnity": "The idea was take the original project of TGC and migrate it to Unity just for fun.",
 	"tgcProjectMigratesToMonoGame": "The idea is take the original project of TGC and migrate it using MonoGame (Graphic Engine) and Bepu Physics (Physic Egine), to detect from TGC (Técnicas de Gráficos por Computadora - Computer Graphics Techniques) what students need to make a project in a better way.",
-	"portfolio": "Is this project was made using ReactJS powered with Typescript and using different libraries like Material UI to manage look and feel, Formik for manage contact form."
+	"portfolio": "Is this project was made using ReactJS powered with Typescript and using different libraries like Material UI to manage look and feel, Formik for manage contact form.",
+	"Projects": "Projects"
 }

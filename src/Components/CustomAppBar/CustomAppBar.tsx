@@ -12,7 +12,6 @@ import {
 } from "@material-ui/core";
 import flagEsp from "../../Assets/Images/logoEsp.svg";
 import flagIngl from "../../Assets/Images/logoIngl.svg";
-import flagFr from "../../Assets/Images/logoFr.svg";
 import { useTranslation } from "react-i18next";
 
 const CustomAppBar = () => {
@@ -43,14 +42,6 @@ const CustomAppBar = () => {
 							}}
 						>
 							<Avatar src={flagIngl}></Avatar>
-						</IconButton>
-						<IconButton
-							aria-controls="menu-appbar"
-							onClick={() => {
-								changeLanguage("fr");
-							}}
-						>
-							<Avatar src={flagFr}></Avatar>
 						</IconButton>
 					</div>
 				</Toolbar>

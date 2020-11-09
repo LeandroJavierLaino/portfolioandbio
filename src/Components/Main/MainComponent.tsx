@@ -6,6 +6,7 @@ import { Skills } from "../Skills/Skills";
 import { Portfolio } from "../Portfolio/Portfolio";
 import { Contact } from "../Contact/Contact";
 import { SocialMedia } from "../SocialMedia/SocialMedia";
+import Experience from "../Experience/Experience";
 
 const MainComponent = () => {
 	return (
@@ -15,6 +16,7 @@ const MainComponent = () => {
 			<Toolbar />
 			<Summary />
 			<Skills />
+			<Experience />
 			<Portfolio />
 			<Contact />
 			<SocialMedia />

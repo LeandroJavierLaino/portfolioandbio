@@ -9,18 +9,25 @@ import {
     Stepper,
     Step,
     StepButton,
-    Button,
     MobileStepper,
     StepLabel,
     StepIconProps,
     Card,
     CardContent,
     CardHeader,
-    Avatar
+    Avatar,
+    IconButton
 } from '@material-ui/core';
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import { useTranslation } from 'react-i18next';
+import pernod from '../../Assets/Images/pernod.png';
+import monsanto from '../../Assets/Images/monsanto.png';
+import utn from '../../Assets/Images/utn.jfif';
+import bayer from '../../Assets/Images/bayer.jfif';
+import khemlabs from '../../Assets/Images/khemlabs.png';
+
+const avatars = [pernod, monsanto, monsanto, utn, bayer, khemlabs];
 
 function getSteps() {
     return [
@@ -132,25 +139,27 @@ const Experience = () => {
         <Paper>
             <Typography className={classes.title} variant="h5">
                 {t('Experience')}
-
-                <Stepper alternativeLabel nonLinear activeStep={activeStep}>
-                    {steps.map((label, index) => {
-                        return (
-                            <Step key={label}>
-                                <StepButton onClick={handleStep(index)}>
-                                    <StepLabel
-                                        StepIconComponent={QontoStepIcon}
-                                    >
-                                        {label}
-                                    </StepLabel>
-                                </StepButton>
-                            </Step>
-                        );
-                    })}
-                </Stepper>
+                {console.log(window.screen.width)}
+                {window.screen.width > 411 && (
+                    <Stepper alternativeLabel nonLinear activeStep={activeStep}>
+                        {steps.map((label, index) => {
+                            return (
+                                <Step key={label}>
+                                    <StepButton onClick={handleStep(index)}>
+                                        <StepLabel
+                                            StepIconComponent={QontoStepIcon}
+                                        >
+                                            {label}
+                                        </StepLabel>
+                                    </StepButton>
+                                </Step>
+                            );
+                        })}
+                    </Stepper>
+                )}
                 <Card>
                     <CardHeader
-                        avatar={<Avatar src=""></Avatar>}
+                        avatar={<Avatar src={avatars[activeStep]}></Avatar>}
                         title={steps[activeStep]}
                     />
                     <CardContent>
@@ -180,26 +189,22 @@ const Experience = () => {
                     position="static"
                     activeStep={activeStep}
                     nextButton={
-                        <Button
+                        <IconButton
                             disabled={activeStep === steps.length - 1}
-                            size="small"
                             onClick={handleNext}
                             className={classes.button}
                         >
-                            {t('next')}
-                            <KeyboardArrowRight />
-                        </Button>
+                            <NavigateNextIcon fontSize="large" />
+                        </IconButton>
                     }
                     backButton={
-                        <Button
+                        <IconButton
                             disabled={activeStep === 0}
                             onClick={handleBack}
-                            size="small"
                             className={classes.button}
                         >
-                            <KeyboardArrowLeft />
-                            {t('back')}
-                        </Button>
+                            <NavigateBeforeIcon fontSize="large" />
+                        </IconButton>
                     }
                 />
             </Typography>

@@ -23,8 +23,8 @@ import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import { useTranslation } from 'react-i18next';
 import pernod from '../../Assets/Images/pernod.png';
 import monsanto from '../../Assets/Images/monsanto.png';
-import utn from '../../Assets/Images/utn.jfif';
-import bayer from '../../Assets/Images/bayer.jfif';
+import utn from '../../Assets/Images/utn.png';
+import bayer from '../../Assets/Images/bayer.png';
 import khemlabs from '../../Assets/Images/khemlabs.png';
 
 const avatars = [pernod, monsanto, monsanto, utn, bayer, khemlabs];

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3bcb33012df21c1f8f29ee9180c7689",
+    "revision": "58a061f97d84fdf48aa4d202abd79bbd",
     "url": "/portfolioandbio/index.html"
   },
   {
-    "revision": "ab34d8a4b2f6dea25c5a",
-    "url": "/portfolioandbio/static/js/2.a5b618fb.chunk.js"
+    "revision": "02044092386b838e09af",
+    "url": "/portfolioandbio/static/js/2.fcb1b59d.chunk.js"
   },
   {
     "revision": "e2896a34bc173bbd7b6d83453e91d5e1",
-    "url": "/portfolioandbio/static/js/2.a5b618fb.chunk.js.LICENSE.txt"
+    "url": "/portfolioandbio/static/js/2.fcb1b59d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "162b5bef33084aab0346",
-    "url": "/portfolioandbio/static/js/main.974c554e.chunk.js"
+    "revision": "c7e3138592319e79a77a",
+    "url": "/portfolioandbio/static/js/main.f701b847.chunk.js"
   },
   {
     "revision": "d556bcbed7e740a302bf",
@@ -22,6 +22,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "041f9af8ab1e4f7c24949ed36deea208",
     "url": "/portfolioandbio/static/media/9620660.041f9af8.jpg"
+  },
+  {
+    "revision": "780b2470c30ba30d61576b355d43c8e9",
+    "url": "/portfolioandbio/static/media/bayer.780b2470.png"
+  },
+  {
+    "revision": "b15353b4fb7065a5756d1fd00a00feab",
+    "url": "/portfolioandbio/static/media/khemlabs.b15353b4.png"
   },
   {
     "revision": "36938bbe277961386e7e309dcb30cbd8",

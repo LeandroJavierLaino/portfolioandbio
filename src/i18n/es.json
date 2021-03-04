@@ -6,7 +6,7 @@
     "skills": "Tecnologias",
     "tgcProjectTemplate": "Prueba de concepto para la asignatura TCG (Técnicas de Gráficos por Computadora) de la UTN (Universidad Tecnológica Nacional) realizado en C# utilizando un framework academico, la API de DirectX 9 y shaders escritos en HLSL (Shader Model 3.0). El proyecto fue realizar una plantilla de un video juego del estilo de Plataformas 3D para futuros alumnos que cursen TGC.",
     "tgcProjectMigratesToUnity": "La idea fue tomar el proyecto original de TGC migrarlo a Unity solo por diversión.",
-    "tgcProjectMigratesToMonoGame": "La idea es tomar el proyecto original de TGC migrarlo a MonoGame (Motor Gráfico) con Bepu Engine (Motor de Físicas), para detectar desde TGC (Técnicas de Gráficos por Computadora) lo que los alumnos necesitan para realizar un proyecto de mejor manera.",
+    "tgcProjectMigratesToMonoGame": "La idea es tomar el proyecto original de TGC migrarlo a MonoGame (Motor Gráfico), para detectar desde TGC (Técnicas de Gráficos por Computadora) lo que los alumnos necesitan para realizar un proyecto de mejor manera. Sin embargo, paso de ser una migración a ser una idea completamente distinta convirtiendolo en un FPS de los 90'.",
     "portfolio": "Es este proyecto el mismo fue realziado en ReactJS con la ayuda de Typescript y utilizando diferentes librerias como Material UI para administrar como se ve la página y Formik para manejar el formulario de contacto.",
     "Projects": "Proyectos",
     "Contact": "Contacto",
@@ -28,7 +28,7 @@
     "monsantoSysadminDate": "Fecha de empleo : sept. 2016 – ago. 2018 | Duración del empleo : 2 años",
     "utnHelperDate": "Fecha de empleo : ago. 2017 – actualidad | Duración del empleo : 3 años y 6 meses",
     "bayerSysadminDate": "Fecha de empleo : ago. 2018 – dic. 2018 | Duración del empleo : 5 meses",
-    "khemLabsDeveloperDate": "Fecha de empleo : ene. 2019 – actualidad | Duración del empleo : 2 años y 1 mes",
+    "khemLabsDeveloperDate": "Fecha de empleo : ene. 2019 – actualidad | Duración del empleo : 2 años y 3 meses",
     "pernodSupportPosition": "Cargo : IT Support Technician",
     "monsantoSupportPosition": "Cargo : IT Support Technician",
     "monsantoSysadminPosition": "Cargo : System Support Administrator",
@@ -36,5 +36,7 @@
     "bayerSysadminPosition": "Cargo : System Support Administrator",
     "khemLabsDeveloperPosition": "Cargo : Desarrollador de software",
     "unkownStep": "Paso desconocido",
-    "Experience": "Experiencia"
+    "Experience": "Experiencia",
+    "LANChatFront": "Este proyecto es una combinación con LANChatBack, siendo este la parte FrontEnd. Se trata de un chat simple en LAN, al cual se puede unir cualquiera que este dentro de una LAN y conozca la ruta. Utiliza React JS y TypeScript.",
+    "LANChatBack": "Este proyecto es una combinación con LANChatFront, siendo este la parte Backend. Se trata de un chat simple en LAN, al cual se puede unir cualquiera que este dentro de una LAN y conozca la ruta. Utiliza Java (11), Spring y MongoDB."
 }
